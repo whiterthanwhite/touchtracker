@@ -13,6 +13,8 @@
 		43B974572A488A0F005AAF69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B974552A488A0F005AAF69 /* Main.storyboard */; };
 		43B974592A488A11005AAF69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B974582A488A11005AAF69 /* Assets.xcassets */; };
 		43B9745C2A488A11005AAF69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B9745A2A488A11005AAF69 /* LaunchScreen.storyboard */; };
+		43B974642A488AD9005AAF69 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B974632A488AD9005AAF69 /* Line.swift */; };
+		43B974662A488B90005AAF69 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B974652A488B90005AAF69 /* DrawView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		43B974582A488A11005AAF69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43B9745B2A488A11005AAF69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43B9745D2A488A11005AAF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B974632A488AD9005AAF69 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		43B974652A488B90005AAF69 /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				43B974582A488A11005AAF69 /* Assets.xcassets */,
 				43B9745A2A488A11005AAF69 /* LaunchScreen.storyboard */,
 				43B9745D2A488A11005AAF69 /* Info.plist */,
+				43B974632A488AD9005AAF69 /* Line.swift */,
+				43B974652A488B90005AAF69 /* DrawView.swift */,
 			);
 			path = TouchTracker;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				43B974542A488A0F005AAF69 /* ViewController.swift in Sources */,
+				43B974662A488B90005AAF69 /* DrawView.swift in Sources */,
+				43B974642A488AD9005AAF69 /* Line.swift in Sources */,
 				43B974502A488A0F005AAF69 /* AppDelegate.swift in Sources */,
 				43B974522A488A0F005AAF69 /* SceneDelegate.swift in Sources */,
 			);
